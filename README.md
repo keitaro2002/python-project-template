@@ -15,9 +15,11 @@ This is a template for Python projects.
     cd <repository_name>
     ```
 4. 環境構築
+* `pyproject.toml`の`name`を変更する
+* 以下のコマンドを実行する
     ```bash
     pyenv local <python-version>
     python -m venv .venv
-    ./poetry.sh install
+    sh poetry.sh install
     ```
     
