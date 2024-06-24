@@ -5,6 +5,10 @@ This is a template for Python projects.
 1. GitHub上で新しいリポジトリを作成する
     * `Repository template`を選択し、このリポジトリを選択する
 2. ローカルで新しいディレクトリを作成する
+    ```bash
+    mkdir <repository_name>
+    cd <repository_name>
+    ```
 3. 以下のコマンドを実行する
     ```bash
     git clone　<repository_url>
