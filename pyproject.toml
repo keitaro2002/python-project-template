@@ -5,6 +5,10 @@ description = ""
 authors = ["keitaro2002"]
 readme = "README.md"
 
+packages = [
+    { include = "src" },
+]
+
 [tool.poetry.dependencies]
 python = "3.9.6"
 
