@@ -15,6 +15,7 @@ This is a template for Python projects.
     ```bash
     pyenv local <python-version>
     python -m venv .venv
+    poetry config virtualenvs.in-project true
     sh poetry.sh install
     ```
 
