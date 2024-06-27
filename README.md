@@ -4,17 +4,12 @@ This is a template for Python projects.
 # How to use 
 1. GitHub上で新しいリポジトリを作成する
     * `Repository template`を選択し、このリポジトリを選択する
-2. ローカルで新しいディレクトリを作成する
-    ```bash
-    mkdir <repository_name>
-    cd <repository_name>
-    ```
-3. 以下のコマンドを実行する
+2. ローカルで以下のコマンドを実行する
     ```bash
     git clone　<repository_url>
     cd <repository_name>
     ```
-4. 環境構築
+3. 環境構築
 * `pyproject.toml`の`name`を変更する
 * 以下のコマンドを実行する
     ```bash
@@ -22,4 +17,8 @@ This is a template for Python projects.
     python -m venv .venv
     sh poetry.sh install
     ```
-    
+
+# Tips
+* モジュールの追加
+   ```bash
+   sh poetry.sh add <module_name>
