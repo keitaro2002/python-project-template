@@ -23,3 +23,10 @@ This is a template for Python projects.
 * モジュールの追加
    ```bash
    sh poetry.sh add <module_name>
+
+# 環境変数の指定
+* 特に指定がない場合はこの操作は不要
+* 自分で作成したsifファイルを使用する場合
+    *
+
+
