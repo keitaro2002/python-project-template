@@ -45,17 +45,17 @@ This is a template for Python projects.
    ```bash
    sh poetry.sh add <module_name>
 
-# 環境変数の指定
-* sifファイルに特に指定はない場合
-    ```bash
-    source ~/.bash_profile
-    ```
-* 自分で作成したsifファイルを使用する場合
-    ```bash
-    echo export SIF_PATH=<sif_file_path> >> ~/.bash_profile
-    source ~/.bash_profile
-    ```
-    (本当はdirenvを使いたい．)
+* 環境変数の指定
+    * sifファイルに特に指定はない場合
+        ```bash
+        source ~/.bash_profile
+        ```
+    * 自分で作成したsifファイルを使用する場合
+        ```bash
+        echo export SIF_PATH=<sif_file_path> >> ~/.bash_profile
+        source ~/.bash_profile
+        ```
+        (本当はdirenvを使いたい．)
 
 # Q&A
 * 自分でnumpyなどのライブラリのバージョンを指定したい場合
