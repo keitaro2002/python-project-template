@@ -1,24 +1,24 @@
 # Python Project Template
 This is a template for Python projects.
 
-. \\
-├── Makefile \\
-├── README.md \\
-├── poetry.lock \\
-├── poetry.sh \\
-├── pyproject.toml \\
-├── scripts \\
-│   └── run.sh \\
-├── setup.cfg \\
-├── src \\
-│   ├── __init__.py \\
-│   ├── main.py \\
-│   ├── myplot.py \\
-│   └── utils \\
-│       └── mkdirs.py \\
-└── tests \\
-    ├── __init__.py \\
-    └── test_main.py \\
+. <br>
+├── Makefile <br>
+├── README.md <br>
+├── poetry.lock <br>
+├── poetry.sh <br>
+├── pyproject.toml <br>
+├── scripts <br>
+│   └── run.sh <br>
+├── setup.cfg <br>
+├── src <br>
+│   ├── __init__.py <br>
+│   ├── main.py <br>
+│   ├── myplot.py <br>
+│   └── utils <br>
+│       └── mkdirs.py <br>
+└── tests <br>
+    ├── __init__.py <br>
+    └── test_main.py <br>
 
 # How to use 
 1. GitHub上で新しいリポジトリを作成する
