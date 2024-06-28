@@ -34,5 +34,6 @@ This is a template for Python projects.
     echo export SIF_PATH=<sif_file_path> >> ~/.bash_profile
     source ~/.bash_profile
     ```
+    (本当はdirenvを使いたい．)
 
 
