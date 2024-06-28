@@ -57,4 +57,10 @@ This is a template for Python projects.
     ```
     (本当はdirenvを使いたい．)
 
+# Q&A
+* 自分でnumpyなどのライブラリのバージョンを指定したい場合
+    ```bash
+    sh poetry.sh add numpy@1.19.5
+    ```
+
 
