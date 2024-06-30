@@ -39,13 +39,7 @@ This is a template for Python projects.
     poetry config virtualenvs.in-project true
     sh poetry.sh install
     ```
-
-# Tips
-* モジュールの追加
-   ```bash
-   sh poetry.sh add <module_name>
-
-* 環境変数の指定
+* 環境変数を設定する
     * sifファイルに特に指定はない場合
         ```bash
         source ~/.bash_profile
@@ -56,6 +50,17 @@ This is a template for Python projects.
         source ~/.bash_profile
         ```
         (本当はdirenvを使いたい．)
+    * PATHの確認
+        ```bash
+        echo $SIF_PATH
+        ```
+
+
+# Tips
+* モジュールの追加
+   ```bash
+   sh poetry.sh add <module_name>
+    ```
 
 # Q&A
 * 自分でnumpyなどのライブラリのバージョンを指定したい場合
