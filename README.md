@@ -50,10 +50,10 @@ This is a template for Python projects.
         source ~/.bash_profile
         ```
         (本当はdirenvを使いたい．)
-    * PATHの確認
-        ```bash
-        echo $SIF_PATH
-        ```
+* PATHの確認
+    ```bash
+    echo $SIF_PATH
+    ```
 
 
 # Tips
